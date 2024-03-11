@@ -2,7 +2,7 @@
 {
   users.mutableUsers = false;
   users.users.root = {
-    initialHashedPassword = "$6$8/ZJ0jr/BWf4at92$PmRuEML2eiCHcRe/vuc54xgSkU.T7bO6ljUqczhkpw3kAv1mTl.PLMOhRuG.yIiEklJGwcHq3szit4PPkZaEM0";
+    initialHashedPassword = "$y$j9T$x9n2iMY35uyQyi042WeMT0$Yb5GRz.2nZjE1RhTk4PS0XKmEvtMxAugg.q5aHQ5xl2";
   };
   users.users.${config.machine.userName} = {
     inherit (config.machine) hashedPassword shell;
